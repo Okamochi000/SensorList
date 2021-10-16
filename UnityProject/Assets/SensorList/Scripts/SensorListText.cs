@@ -1,9 +1,9 @@
-using System;
+ï»¿using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// ƒZƒ“ƒT[ƒŠƒXƒg•\¦
+/// ã‚»ãƒ³ã‚µãƒ¼ãƒªã‚¹ãƒˆè¡¨ç¤º
 /// </summary>
 public class SensorListText : MonoBehaviour
 {
@@ -17,7 +17,7 @@ public class SensorListText : MonoBehaviour
         string[] sensorTypes = SensorListPlugin.GetSensorTypes();
         if (sensorNames.Length > 0)
         {
-            text.text = "[ƒZƒ“ƒT[ˆê——]";
+            text.text = "[ã‚»ãƒ³ã‚µãƒ¼ä¸€è¦§]";
             for (int i = 0; i < sensorNames.Length; i++)
             {
                 text.text += Environment.NewLine;
@@ -26,7 +26,7 @@ public class SensorListText : MonoBehaviour
         }
         else
         {
-            text.text = "ƒZƒ“ƒT[–³‚µ";
+            text.text = "ã‚»ãƒ³ã‚µãƒ¼ç„¡ã—";
         }
     }
 }

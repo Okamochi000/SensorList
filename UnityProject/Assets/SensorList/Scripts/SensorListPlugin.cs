@@ -1,12 +1,12 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 /// <summary>
-/// ƒZƒ“ƒT[ƒŠƒXƒgƒvƒ‰ƒOƒCƒ“
+/// ã‚»ãƒ³ã‚µãƒ¼ãƒªã‚¹ãƒˆãƒ—ãƒ©ã‚°ã‚¤ãƒ³
 /// </summary>
 public static class SensorListPlugin
 {
     /// <summary>
-    /// ƒZƒ“ƒT[–¼ˆê——‚ğæ“¾‚·‚é
+    /// ã‚»ãƒ³ã‚µãƒ¼åä¸€è¦§ã‚’å–å¾—ã™ã‚‹
     /// </summary>
     /// <returns></returns>
     public static string[] GetSensorNames()
@@ -23,7 +23,7 @@ public static class SensorListPlugin
     }
 
     /// <summary>
-    /// ƒZƒ“ƒT[ƒ^ƒCƒvˆê——‚ğæ“¾‚·‚é
+    /// ã‚»ãƒ³ã‚µãƒ¼ã‚¿ã‚¤ãƒ—ä¸€è¦§ã‚’å–å¾—ã™ã‚‹
     /// </summary>
     /// <returns></returns>
     public static string[] GetSensorTypes()
